@@ -5,6 +5,6 @@ const todoController = require('../controllers/todoControllers');
 
 const todoRouter = express.Router();
 
-todoRouter.post('/', rescue(todoController.addtodo));
+todoRouter.post('/', rescue(todoController.addTodo));
 
 module.exports = todoRouter;

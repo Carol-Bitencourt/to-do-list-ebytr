@@ -15,4 +15,4 @@ app.get('/', (_req, res) => {
   res.send();
 });
 
-app.listen(3001, () => console.log('ouvindo porta 3001!'));
+app.listen(3000, () => console.log('ouvindo porta 3000!'));
